@@ -11,7 +11,7 @@ import streamlit as st
 
 
 
-heart_disease_model = pickle.load(open('E:/Final Project/heart_disease_model_final.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model_final.sav', 'rb'))
 
 
 st.title('Heart Disease Prediction using ML')
